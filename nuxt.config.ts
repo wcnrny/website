@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['nuxt-icon'],
+  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   vite: {
     css: {
       preprocessorOptions: {
