@@ -18,3 +18,11 @@
   }
 }
 </style>
+
+<script setup lang="ts">
+useHead({
+  title: 'Blog • wcnrny',
+  meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
+  link: [{ rel: 'icon', href: '/logo.png' }],
+});
+</script>

@@ -169,6 +169,11 @@ const Skills = [
     icon: 'vscode-icons:file-type-mongo',
   },
 ];
+useHead({
+  title: 'Home • wcnrny',
+  meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
+  link: [{ rel: 'icon', href: '/logo.png' }],
+});
 </script>
 
 <style lang="scss">

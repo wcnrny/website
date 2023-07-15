@@ -48,6 +48,11 @@ const Platforms = [
     icon: 'bi:reddit',
   },
 ];
+useHead({
+  title: 'Contact • wcnrny',
+  meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
+  link: [{ rel: 'icon', href: '/logo.png' }],
+});
 </script>
 
 <style lang="scss">

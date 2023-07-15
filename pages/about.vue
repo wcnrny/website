@@ -51,6 +51,11 @@
 const YEAR_MILLIS = 31556952000;
 const Birthday = new Date(2004, 11, 12);
 const age = Math.floor((Date.now() - Birthday.getTime()) / YEAR_MILLIS);
+useHead({
+  title: 'About • wcnrny',
+  meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
+  link: [{ rel: 'icon', href: '/logo.png' }],
+});
 </script>
 
 <style lang="scss">

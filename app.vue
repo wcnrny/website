@@ -13,13 +13,8 @@
 </template>
 
 <script setup lang="ts">
-import TitleCase from 'utils/TitleCase.func';
-
-const route = useRoute();
 useHead({
-  title: `${
-    route.path === '/' ? 'Home' : TitleCase(route.name as string)
-  } • wcnrny`,
+  title: 'Home • wcnrny',
   meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
   link: [{ rel: 'icon', href: '/logo.png' }],
 });
