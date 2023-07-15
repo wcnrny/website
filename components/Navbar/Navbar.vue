@@ -122,12 +122,15 @@
     }
   }
   .mobile-menu-button {
-    display: flex;
+    display: none;
     width: 2rem;
     flex-direction: column;
     row-gap: 0.5rem;
     transition: transform 0.3s;
     position: relative;
+    @media (max-width: $tablet-size) {
+      display: flex;
+    }
 
     .bar {
       content: '';
