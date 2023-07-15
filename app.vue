@@ -16,6 +16,7 @@
 useHead({
   title: 'Home • wcnrny',
   meta: [{ name: 'description', content: "wcnrny's Portfolio." }],
+  link: [{ rel: 'icon', href: '/logo.png' }],
 });
 </script>
 
