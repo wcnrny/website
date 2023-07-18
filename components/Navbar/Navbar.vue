@@ -1,10 +1,6 @@
 <template>
   <div class="navbar-container">
-    <NuxtLink to="/" class="navbar-link"
-      ><span>{{
-        route.path === '/' ? 'Home' : TitleCase(route.name as string)
-      }}</span>
-    </NuxtLink>
+    <NuxtLink to="/" class="navbar-link"><span>wcnrny</span> </NuxtLink>
     <div class="link-container-desktop">
       <NuxtLink to="/" class="link" :class="isActive('/')">Home</NuxtLink>
       <NuxtLink to="/about" class="link" :class="isActive('/about')"

@@ -79,7 +79,7 @@ const Pages = [
   },
   {
     title: 'Blog',
-    description: "Check out my blog. I'll post there frequently.",
+    description: "Check out my Turkish blog. I'll post there frequently.",
     to: '/blog',
   },
 ];
@@ -264,7 +264,13 @@ useHead({
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-inline: 1rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
     background-color: $secondary-background-color;
+    transition: background-color 0.1s;
+    &:hover {
+      background-color: #202020;
+    }
     h3 {
       font-family: 'Poppins', sans-serif;
       color: $text;
@@ -294,13 +300,13 @@ useHead({
       font-weight: 400;
       user-select: none;
       transition: all 0.3s;
-      cursor: pointer;
       border-radius: 4px;
+      border: 1px $border-color solid;
       span {
         font-family: 'Inter', sans-serif;
       }
       &:hover {
-        transform: scale(1.01);
+        transform: scale(1.005);
         background-color: $secondary-background-color;
       }
     }
