@@ -84,6 +84,14 @@ useHead({
     padding-bottom: 1rem;
     font-size: x-large;
     color: $text;
+    padding-inline: 2rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    background-color: $secondary-background-color;
+    transition: background-color 0.1s;
+    &:hover {
+      background-color: #202020;
+    }
   }
 }
 .send-email-button {

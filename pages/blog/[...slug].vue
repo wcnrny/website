@@ -78,4 +78,7 @@ const getDate = new Date(page?.value?.createdAt || Date.now());
   display: flex;
   justify-content: space-around;
 }
+a {
+  text-decoration: none;
+}
 </style>

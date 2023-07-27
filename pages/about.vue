@@ -27,8 +27,8 @@
       years because of prep class. But that's okay.
     </p>
     <p>
-      Now I entered the O level exam called "YKS". Even though I don't know how
-      I scored, I'm a little excited.
+      Now I entered the O level exam called "YKS". Results are not good at all.
+      So I'll prepare for one year and enter again.
     </p>
     <p>
       For my own privacy, I cannot name the schools that I went. Sorry about
@@ -43,6 +43,10 @@
     <p>
       And I want to make Docker-alternative application written in Rust. So the
       next plan is to learn Rust actually.
+    </p>
+    <p>
+      For more information in Turkish, click
+      <NuxtLink to="/blog/planlarim">here</NuxtLink>
     </p>
   </div>
 </template>
@@ -64,21 +68,44 @@ useHead({
   padding-inline: 4rem;
   height: auto;
   min-height: 100vh;
-  color: $text;
+  color: rgba(255, 255, 255, 0.5);
   background-color: $background-color;
 
   h1,
   h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: $text;
   }
   p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: large;
     margin-bottom: 1rem;
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $text;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $text;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.2s;
+    }
+    &:hover {
+      &::after {
+        transform: scaleX(1);
+      }
     }
   }
 }
