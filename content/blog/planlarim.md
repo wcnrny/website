@@ -18,5 +18,3 @@ Gelelim çözüme, peki bu nasıl düzeltilebilir? Farklı bir framework kullana
 Tabiki uygulamaları düzelterek de bu iş hallolmaz. En iyisi Linux'a geçmek. 2. planım ise Windows'a benzeyen, geçiş yapıldığında yabancılık hissettirmeyecek bir Linux tabanlı işletim sistemi oluşturmak. Ki bu sayede düşük sistemli bilgisayarlar çok güç tüketmeden rahatlıkla kullanılabilecek.
 
 Özet olarak düşük sistemli bilgisayarlara yardımcı olmak istiyorum. Planlarım bu şekilde. Tabiki ileride değişecektir düşünce yapım ama bunları hayata geçirerek birçok kişiye yardımcı olmak istiyorum.
-
-(Ve özel istek ile Naz'a kaplumbağa alacağım.)
