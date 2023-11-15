@@ -20,6 +20,8 @@ useHead({
 });
 </script>
 
+<script async src="https://analytics.eu.umami.is/script.js" data-website-id="fd477d8f-2165-45e9-8d4d-900ae389fbb4"></script>
+
 <style lang="scss">
 * {
   scroll-behavior: smooth;
