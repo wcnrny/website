@@ -17,6 +17,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
     "nuxt-icon": "^0.4.2",
+    "nuxt-umami": "^2.5.5",
     "sass": "^1.63.6"
   }
 }
