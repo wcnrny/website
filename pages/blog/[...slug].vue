@@ -20,10 +20,9 @@
 </template>
 
 <script setup lang="ts">
-import { Blog } from 'types/Blog';
+import { type Blog } from '../../types/Blog';
 
 const { path } = useRoute();
-console.log(path);
 const { data: page } = await useAsyncData<Blog>(`content-${path}`, () =>
   queryContent(path).findOne()
 );

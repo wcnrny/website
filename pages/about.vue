@@ -53,7 +53,7 @@
 
 <script setup lang="ts">
 const YEAR_MILLIS = 31556952000;
-const Birthday = new Date(2004, 11, 12);
+const Birthday = new Date(2004, 10, 12);
 const age = Math.floor((Date.now() - Birthday.getTime()) / YEAR_MILLIS);
 useHead({
   title: 'About • wcnrny',
